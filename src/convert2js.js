@@ -1,0 +1,9 @@
+import { Map, List } from "immutable";
+
+const deep = Map({ a: 1, b: 2, c: List([1, 2, 3, 4, 5, 6, 7]) });
+
+console.log(deep.toObject());
+console.log(deep.toArray());
+console.log(deep.toJS());
+console.log(JSON.stringify(deep));
+console.log(JSON.parse(JSON.stringify(deep)));
