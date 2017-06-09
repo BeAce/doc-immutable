@@ -5,7 +5,7 @@ doc of immutable
 # Execute
 
 ```bash
-npm install
+npm install **Not Necessary**
 
 npm start
 
